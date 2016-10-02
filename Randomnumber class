@@ -1,0 +1,17 @@
+//CLASS DEFINE THE RANDOM NUMBER FUNCTION
+
+package com.java.assignment1;
+
+public class Randomclass {
+		
+			
+	public void rand(int k)
+	//function which generates random integer with in the range of (0,n-1)
+	{
+	
+	int n = (int)(Math.random()*(k-1));
+	
+			System.out.println(" input is " +k + " random value is " +n );
+	}
+
+ }
