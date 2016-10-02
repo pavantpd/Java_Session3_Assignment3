@@ -1,0 +1,23 @@
+
+//MAIN FUNCTION OF RANDOM NUMBER GENERATOR
+
+package com.java.assignment1;
+import java.util.Scanner;
+
+public class Radomtest {
+
+	public static void main(String[] args) {//MAIN FUNCTION
+		// TODO Auto-generated method stub
+		
+		Randomclass Randdd = new Randomclass();//CREATING OBJECT FROM THE CLASS
+		
+		Scanner S = new Scanner(System.in);
+		System.out.println("Enter The Value");
+		int k = S.nextInt();//READING A VALUE
+		
+		Randdd.rand(k);//INVOKING FUNCTION FROM CLASS
+		S.close();//SCANNER CLOSE
+
+	}
+
+}
